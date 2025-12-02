@@ -1,0 +1,56 @@
+-- Para rodar o código, deve-se inicialmente deve realizar a configuração dos parâmetros no arquivo "Setup.txt"
+
+-- Apó essa configuração inicial, o arquivo "Principal.m" é executado para a realização do agrupamento de planos observáveis"
+
+-- Antes de executar o código, deve-se definir a rede elétrica a ser utilizada no arquivo "Principal.m"
+
+
+-- Existem as seguintes configurações no arquivo Setup.txt:
+
+qtd_ind = Define a quantidade de indivíduos por população
+
+qtd_ind_repop = Define a quantidade de indivíduo que serão levados na repopulação (Manter o mesmo número de qtd_ind)
+
+numero_inicial = Número de Unidades de Medição desejado
+
+clusters_desejado = Quantidade de clusters desejados (Recomenda-se manter em 1)
+
+planos_desejados = Quantidade de planos desejados
+
+UMs_trocadas = Variável que define a distância de hamming no agrupamento
+
+qtd_estimativa = Variável que irá controlar a quantidade de iterações no processo de estimar a quantidade de planos de medição
+
+fatorCarga = Fator que controla a dimensão da Tabela Hash
+
+limite_estimativa = Outra variável de controle do processo de estimação
+
+limite_teste_AG = Define quantas vezes o AG será executado (Recomenda-se manter em 1)
+
+taxa_elitismo = Porcentagem dos indivíduos elites
+
+limite_inferior_cruzamento = Limite inferior de cruzamento
+
+limite_superior_cruzamento = Limite superior de cruzamento
+
+limite_inferior_mutacao = Limite inferior de mutação
+
+limite_superior_mutacao = Limite superior de mutação
+
+verificar_gera = Define a partir de quantas gerações, o processo de agrupamento é executado
+
+limite_parada2 = Define o critério de parada sinalizado pelo número 2
+
+limite_parada3 = Define o critério de parada sinalizado pelo número 3
+
+controle_qtd_cluster = Define como o agrupamento será executado:
+ 1 - Retorna o cluster com a máxima quantidade;
+ 2 - Retorna o cluster com a quantidade de planos desejada;
+ 3 - Retorna o clsuter com a mínima quantidade;
+ 4 - Retorna todos os clusters e o usuário define qual cluster será selecionado.
+
+diferenca_maxima_aceitavel = Limite máximo para mais ou para menos que define quantos planos o cluster pode divergir da quantidade desejada.
+
+qtd_barras = Inserir a quantidade de barras da rede elétrica a ser analisada.
+
+estimativa_plan_obs_set = Define uma quantidade estimada, caso o estimador não consiga realizar a estimativa para dimensionar a tabela Hash
