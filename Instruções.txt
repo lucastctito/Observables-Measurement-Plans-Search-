@@ -4,6 +4,9 @@
 
 -- Antes de executar o código, deve-se definir a rede elétrica a ser utilizada no arquivo "Principal.m"
 
+-- Os arquivos de saída possuem a seguinte nomeclatura: "Rede elétrica_Quantidade de UMs_Quantidade de UMs altenradas_Tamanho do Conjunto.csv". Por exemplo: IEEE-30_14_7_10.csv"
+
+-- Além de configurar o arquivo "Setup.txt" abaixo, deve alterar a rede elétrica no arquivo "Principal_trab.m"
 
 -- Existem as seguintes configurações no arquivo Setup.txt:
 
