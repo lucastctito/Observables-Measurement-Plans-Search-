@@ -8,6 +8,8 @@
 
 -- Além de configurar o arquivo "Setup.txt" abaixo, deve alterar a rede elétrica no arquivo "Principal_trab.m"
 
+-- Também é gerado um arquivo com a base de planos utilizada para realizar o agrupamento. Essa base possui o nome "Base de dados.csv". Ela é a base de dados que contém a quantidade de planos utilizada para realizar o agrupamento durante a execução da busca guiada. Assim, a quantidade total não representa o espaço de soluções completo. Caso deseje obter umm valor maior do que obtido inicialmente, é recomendado alterar o parâmetro "verificar_gera" para um valor alto no arquivo "Setup.txt", permitindo o algoritmo percorrer por mais iterações antes de realizar o agrupamento.
+
 -- Existem as seguintes configurações no arquivo Setup.txt:
 
 qtd_ind = Define a quantidade de indivíduos por população
