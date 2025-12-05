@@ -1,0 +1,4 @@
+-- O algoritmo permite a identificação de um conjunto de planos de medição observáveis, diferentes entre si, através do Algoritmo Genético para identificar no espaço de busca e o Algoritmo Hierárquico para agrupa-los
+-- O documento "Instruções.txt" ilustra o passo-a-passo para utilizar o algoritmo
+-- Dentro desse reposítório há alguns conjuntos de planos de medição observáveis. Ex: IEEE-118_70_25_30.csv
+-- A denotação indicada informa a rede elétrica, a quantidade de unidades de medição por plano de medição, a quantidade unidades medição que foram alternadas e o tamanho do conjunto de planos.
