@@ -1,0 +1,18 @@
+###Agrupamento de planos durante a busca guiada###
+
+Nessa etapa, o agrupamento é realizado durante a busca guiada e são gerado dois arquivos: a base de dados que contém os planos analisados até a geração que o agrupamento é realizado e o conjunto de planos que contém os planos com base na dissimilaridade entre eles.
+
+A seguir é apresentado as etapas para formação dessa base de dados:
+
+1 - Inicializar os seguintes parâmetros no arquivo "Setup.txt"
+	a. qtd_ind e qtd_ind_repop
+	b. numero inicial (quantidade de UMs)
+	c. UMs_trocadas (define a distância de Hamming e alternância entre as UMs. A distância de Hamming é 	duas vezes o valor de UMs_trocadas). 
+	d. qtd_barras (Número de barras da rede elétrica analisada)
+	e. def_parada tem que ser igual a 0
+	f. Se controle_qtd_cluster = 2, deve-se definir a quantidade de planos desejados e a margem de 	planos nesse conjunto pela variável diferenca_maxima_aceitavel.
+	g. verificar_gera define a partir de quantas gerações o algoritmo realizará o agrupamento.
+
+2 - A base de dados gerado até o número de gerações estipulado em "verificar gera" é criada em um arquivo chamado "Base de dados.csv"
+
+3 - Para o conjunto de planos agrupados com base na distância de hamming, deve-se inicializar o nome do arquivo e adicionar a extensão ".csv".

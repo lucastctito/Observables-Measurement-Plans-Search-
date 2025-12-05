@@ -1,0 +1,18 @@
+###Formação de uma base de dados que contenha planos distintos entre si###
+
+Nessa etapa, uma base de dados é formada após o algoritmo genético atingir o critério de parada e o agrupamento de planos de medição com base na distância de Hamming é realizado após a busca.
+
+A seguir é apresentado as etapas para formação dessa base de dados:
+
+1 - Inicializar os seguintes parâmetros no arquivo "Setup.txt"
+	a. qtd_ind e qtd_ind_repop
+	b. numero inicial (quantidade de UMs)
+	c. UMs_trocadas (define a distância de Hamming e alternância entre as UMs. A distância de Hamming é 	duas vezes o valor de UMs_trocadas). Obs: Caso o interesse seja só formar uma base de planos sem 	realizar o agrupamento, atribui-se qualquer valor para esse parâmetro.
+	d. qtd_barras (Número de barras da rede elétrica analisada)
+	e. def_parada tem que ser igual a 1
+	f. tamanho_conjunto define o número de planos que a base de dados terá.
+	g. Se controle_qtd_cluster = 2, deve-se definir a quantidade de planos desejados e a margem de 	planos nesse conjunto pela variável diferenca_maxima_aceitavel.
+
+2 - A base de dados gerado até o número de gerações estipulado em "verificar gera" é criada em um arquivo chamado "Base de dados.csv"
+
+3 - Para o conjunto de planos agrupados com base na distância de hamming, deve-se inicializar o nome do arquivo e adicionar a extensão ".csv".
