@@ -59,3 +59,9 @@ diferenca_maxima_aceitavel = Limite máximo para mais ou para menos que define q
 qtd_barras = Inserir a quantidade de barras da rede elétrica a ser analisada.
 
 estimativa_plan_obs_set = Define uma quantidade estimada, caso o estimador não consiga realizar a estimativa para dimensionar a tabela Hash
+
+def_parada = Define a busca que será realizada:
+  0 = É formado uma base de dados durante a execução do algoritmo genético e o agrupamento também é realizado durante a busca
+  1 = É formada uma base de dados após o algoritmo genético atingir o critério de parada e o agrupamento também é realizado após a busca
+
+tamanho_conjunto = Define o tamanho da base de dados quando def_parada é igual a 1
