@@ -44,9 +44,9 @@ limite_superior_mutacao = Limite superior de mutação
 
 verificar_gera = Define a partir de quantas gerações, o processo de agrupamento é executado
 
-limite_parada2 = Define o critério de parada sinalizado pelo número 2
+limite_parada2 = Critério de parada quando o AG atinge a convergência 
 
-limite_parada3 = Define o critério de parada sinalizado pelo número 3
+limite_parada3 = Critério de parada que define a partir de quantas gerações o algoritmo genético é encerrado quando não consegue encontrar um conjunto de planos de medição com base na dissimilaridade estipulada.
 
 controle_qtd_cluster = Define como o agrupamento será executado:
  1 - Retorna o cluster com a máxima quantidade;
